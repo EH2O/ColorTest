@@ -17,14 +17,14 @@ for (let i = 0; i < a1.length; i += 2 ){
 
     element.appendChild(para)
 
-    let test = document.createElement("p");
-    let test1 = document.createTextNode("QWERTYU:  " + (i/2+1) + " R" );
-    test.appendChild(test1)
+    let para1 = document.createElement("p");
+    let node1 = document.createTextNode("QWERTYU:  " + (i/2+1) + " R" );
+    para1.appendChild(node1)
 
-    test.style.color = a1[i+1]
-    test.style.background= a1[i]
+    para1.style.color = a1[i+1]
+    para1.style.background= a1[i]
 
-    element.appendChild(test)
+    element.appendChild(para1)
 
 }
 
