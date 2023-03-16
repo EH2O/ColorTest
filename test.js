@@ -26,7 +26,6 @@ for (let i = 0; i < a1.length; i += 2 ){
 
     element.appendChild(test)
 
-    console.log("test")
 }
 
 
