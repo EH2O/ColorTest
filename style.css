@@ -1,0 +1,11 @@
+.test {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+.test p {
+    margin: 0;
+    padding: 1rem;
+ 
+}
